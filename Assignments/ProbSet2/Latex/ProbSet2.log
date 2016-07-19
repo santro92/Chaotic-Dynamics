@@ -1,0 +1,215 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.1.18)  26 JAN 2016 00:10
+entering extended mode
+**./ProbSet2.tex
+(ProbSet2.tex
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 69 languages loaded.
+("C:\Users\Santy\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Users\Santy\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size11.clo"
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\Santy\AppData\Local\Programs\MiKTeX 2.9\tex\latex\preprint\fullpage.
+sty"
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip43
+)
+("C:\Users\Santy\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
+sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Santy\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.st
+y"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Users\Santy\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.
+sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Santy\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Users\Santy\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\graphics.
+cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+("C:\Users\Santy\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.
+def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Users\Santy\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infware
+rr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Users\Santy\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds
+.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Users\Santy\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count88
+\float@exts=\toks15
+\float@box=\box26
+\@float@everytoks=\toks16
+\@floatcapt=\box27
+)
+(ProbSet2.aux)
+\openout1 = `ProbSet2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+
+("C:\Users\Santy\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
+ii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count89
+\scratchdimen=\dimen105
+\scratchbox=\box28
+\nofMPsegments=\count90
+\nofMParguments=\count91
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count92
+\MPscratchDim=\dimen106
+\MPnumerator=\count93
+\makeMPintoPDFobject=\count94
+\everyMPtoPDFconversion=\toks18
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 18.
+ <images/prob1.jpg, id=1, 702.625pt x 526.96875pt>
+File: images/prob1.jpg Graphic file (type jpg)
+ <use images/prob1.jpg>
+Package pdftex.def Info: images/prob1.jpg used on input line 20.
+(pdftex.def)             Requested size: 351.31163pt x 263.48372pt.
+
+[1
+
+{C:/Users/Santy/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/pr
+ob1.jpg>]
+Missing character: There is no â in font cmbx10!
+Missing character: There is no € in font cmbx10!
+Missing character: There is no ¢ in font cmbx10!
+ <images/prob21.jpg, id=12, 702.625pt x 526.96875pt>
+File: images/prob21.jpg Graphic file (type jpg)
+
+<use images/prob21.jpg>
+Package pdftex.def Info: images/prob21.jpg used on input line 33.
+(pdftex.def)             Requested size: 227.62204pt x 170.71602pt.
+ <images/prob22.jpg, id=13, 702.625pt x 526.96875pt>
+File: images/prob22.jpg Graphic file (type jpg)
+
+<use images/prob22.jpg>
+Package pdftex.def Info: images/prob22.jpg used on input line 34.
+(pdftex.def)             Requested size: 227.62204pt x 170.71602pt.
+ <images/prob23.jpg, id=14, 702.625pt x 526.96875pt>
+File: images/prob23.jpg Graphic file (type jpg)
+
+<use images/prob23.jpg>
+Package pdftex.def Info: images/prob23.jpg used on input line 36.
+(pdftex.def)             Requested size: 227.62204pt x 170.71602pt.
+ <images/prob24.jpg, id=15, 702.625pt x 526.96875pt>
+File: images/prob24.jpg Graphic file (type jpg)
+
+<use images/prob24.jpg>
+Package pdftex.def Info: images/prob24.jpg used on input line 37.
+(pdftex.def)             Requested size: 227.62204pt x 170.71602pt.
+
+Overfull \hbox (26.27618pt too wide) in paragraph at lines 31--40
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--40
+
+ []
+
+<images/prob3.jpg, id=16, 702.625pt x 526.96875pt>
+File: images/prob3.jpg Graphic file (type jpg)
+ <use images/prob3.jpg>
+Package pdftex.def Info: images/prob3.jpg used on input line 64.
+(pdftex.def)             Requested size: 210.78912pt x 158.09184pt.
+
+<images/prob31.jpg, id=17, 702.625pt x 526.96875pt>
+File: images/prob31.jpg Graphic file (type jpg)
+ <use images/prob31.jpg>
+Package pdftex.def Info: images/prob31.jpg used on input line 72.
+(pdftex.def)             Requested size: 210.78912pt x 158.09184pt.
+
+[2 <./images/prob21.jpg> <./images/prob22.jpg> <./images/prob23.jpg> <./images/
+prob24.jpg>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 96.
+
+("C:\Users\Santy\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 96.
+
+[3 <./images/prob3.jpg> <./images/prob31.jpg>] [4] (ProbSet2.aux) ) 
+Here is how much of TeX's memory you used:
+ 1272 strings out of 493634
+ 17492 string characters out of 3135239
+ 72964 words of memory out of 3000000
+ 4680 multiletter control sequences out of 15000+200000
+ 8811 words of font info for 31 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 27i,13n,19p,241b,312s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Sa
+nty/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+><C:/Users/Santy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmmi10.pfb><C:/Users/Santy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmmi8.pfb><C:/Users/Santy/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Santy/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Santy/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Santy/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Us
+ers/Santy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb><C:/Users/Santy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsy8.pfb>
+Output written on ProbSet2.pdf (4 pages, 257932 bytes).
+PDF statistics:
+ 58 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+
