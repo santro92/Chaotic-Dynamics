@@ -1,0 +1,103 @@
+\documentclass{article}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,270mm},
+ left=20mm,
+ top=10mm,
+ }
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{caption}
+\usepackage{amsmath}
+\newcommand*{\addheight}[2][.5ex]{%
+  \raisebox{0pt}[\dimexpr\height+(#1)\relax]{#2}%
+}
+\title{\textbf{Chaotic Dynamics - CSCI 5446} \\
+Problem Set 7}
+\author{Santhanakrishnan Ramani}
+\begin{document}
+\maketitle
+
+\section*{Problem 1}
+The Jacobian $D_{\vec{x}}\vec{F}$ for the Lorenz system is 
+
+$$D_{\vec{x}}\vec{F} =
+\begin{vmatrix}
+-a&a&0\\
+r-z&-1&-x\\
+y&x&-b\\
+\end{vmatrix}
+$$
+\section*{Problem 2}
+The associated variational system $\dot\delta = D_{\vec{x}}\vec{F}\delta$
+$$
+\dot\delta =
+\begin{vmatrix}
+-a&a&0\\
+r-z&-1&-x\\
+y&x&-b\\
+\end{vmatrix}
+\begin{vmatrix}
+\delta_{xx}&\delta_{yx}&\delta_{zx}\\
+\delta_{xy}&\delta_{yy}&\delta_{zy}\\
+\delta_{xz}&\delta_{yz}&\delta_{zz}\\
+\end{vmatrix}
+=
+\begin{vmatrix}
+-a.\delta_{xx} + a.\delta_{xy}&-a.\delta_{yx} + a.\delta_{yy}&-a.\delta_{zx} + a.\delta_{zy}\\
+
+(r-z).\delta_{xx} - \delta_{xy} - x.\delta_{xz} & (r-z).\delta_{yx} - \delta_{yy} - x.\delta_{yz}&(r-z).\delta_{zx} - \delta_{zy} - x.\delta_{zz}\\
+
+y.\delta_{xx} + x.\delta_{xy} -b.\delta_{xz} & y.\delta_{yx} + x.\delta_{yy} -b.\delta_{yz} & y.\delta_{zx} + x.\delta_{zy} -b.\delta_{zz}\\
+\end{vmatrix}
+$$
+\section*{Problem 3}
+Integrating the Lorenz variational equation using RK4 with a = 16, r = 45, b = 4, and a timestep of .001 for 100 steps using the given initial conditions we get,
+\begin{enumerate}[label=(\alph*)]
+
+\item 
+For, $
+[x \, y \, z \, \delta_{xx} \, \delta_{xy} \, \delta_{xz} \, \delta_{yx} \, \delta_{yy} \, \delta_{yz} \, \delta_{zx} \, \delta_{zy} \, \delta_{zz}] = [0 \,\, 1\,\, 2 \,\,1 \,\,0 \,\,0 \,\,0 \,\,1\,\, 0\,\, 0\,\, 0\,\, 1]
+$, component of evolved matrix $\delta$,
+$$\delta =
+\begin{vmatrix}
+2.4039  &&  1.9189 &&  -0.0297 \\
+5.1751  &&  4.2072 &&  -0.0893 \\
+0.4808  &&  0.3741 &&   0.6651 \\
+\end{vmatrix}
+$$
+and the column sums of $\delta$ are $8.0598,\, 6.5002,\, 0.5461$ respectively.
+
+\item
+For, $
+[x \, y \, z \, \delta_{xx} \, \delta_{xy} \, \delta_{xz} \, \delta_{yx} \, \delta_{yy} \, \delta_{yz} \, \delta_{zx} \, \delta_{zy} \, \delta_{zz}] = [10 \,\, -5\,\, 2 \,\,1 \,\,0\,\, 0\,\, 0\,\, 1\,\, 0\,\, 0\,\, 0\,\, 1]
+$, component of evolved matrix $\delta$,
+$$\delta =
+\begin{vmatrix}
+2.1310  &&   1.6392  && -0.4858 \\
+3.8600  &&   3.0083  && -1.1106\\
+3.1219  &&   2.5325  && -0.0181\\
+\end{vmatrix}
+$$
+and the column sums of $\delta$ are $9.1130,\, 7.1800,\, -1.6145$ respectively.
+
+\item
+For, $
+[x \, y \, z \, \delta_{xx} \, \delta_{xy} \, \delta_{xz} \, \delta_{yx} \, \delta_{yy} \, \delta_{yz} \, \delta_{zx} \, \delta_{zy} \, \delta_{zz}] = [0 \,\, -1\,\, 2 \,\,1 \,\,0\,\, 0\,\, 0\,\, 1\,\, 0\,\, 0\,\, 0\,\, 1]
+$, component of evolved matrix $\delta$,
+$$\delta =
+\begin{vmatrix}
+ 2.4039 &&   1.9189 &&   0.0297\\
+ 5.1751 &&   4.2072 &&   0.0893\\
+-0.4808 &&  -0.3741 &&   0.6651\\
+\end{vmatrix}
+$$
+and the column sums of $\delta$ are $7.0983,\, 5.7519,\, 0.7841$ respectively.
+
+\item
+Looking at the evolved matrix $\delta$ and their respective columns sums for the above three initial conditions, I found the variations grew faster in all the directions x, y, z for the initial condition given in (b). The z variation shrinked for initial conditions given in (b), whereas grew and remained less than one for the other two initial conditions. Keeping the x \& z of initial condition constant and mirroring the y value, had a similar effect on x \& y variation, but opposite effect on z variation. 
+\end{enumerate}
+
+\end{document}
